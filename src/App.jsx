@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from './About/About';
 import Categories from './Categories/Categories';
 import SingleProduct from './Singleproduct/singleProduct';
-import Singlecatogry from './Singlecatogry/SingleCatogry';
+import Singlecatogry from './Singlecatogry/Singlecatogry';
 import { useState } from 'react';
 import Cart from './Cart/Cart'
 
