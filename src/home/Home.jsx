@@ -11,7 +11,7 @@ import Mobile from './Mobile'
 export default function Home() {
   return (
     <>
-    suyahs
+    
       <Hero />
       <Catagory />
       <Subhero />

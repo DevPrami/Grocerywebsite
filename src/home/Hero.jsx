@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="w-[90%]  m-auto flex items-center justify-center">
         <div className="w-[50%] ">
           <h1 className=" text-[50px] font-bold leading-tight pb-[30px]">
-            Make healthy life
+            suyash
             <br /> with <span className="text-green-600">
               fresh grocery
             </span>
