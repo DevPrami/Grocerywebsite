@@ -63,7 +63,7 @@ export default function Catagory() {
                 style={{ backgroundColor: item.color }}
               >
                 <img
-                  src={`/src/assets/Categories/${item.url}`}
+                  src={`/src/assets/categories/${item.url}`}
                   alt={item.catagory}
                   className="w-[50%] h-[50%] object-cover rounded-lg mb-4"
                 />
