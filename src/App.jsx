@@ -8,6 +8,7 @@ import SingleProduct from './Singleproduct/singleProduct';
 import Singlecatogry from './Singlecatogry/Singlecatogry';
 import { useState } from 'react';
 import Cart from './Cart/Cart'
+import Contact from './contact/Contact'
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/category/:category" element={<SingleProduct count={count} setCount={setCount} />} />
         <Route path="/singlecatogry" element={<Singlecatogry  />} />
         <Route path="/Cart" element={<Cart  count={count} setCount={setCount} />} />
+         <Route path="/contact" element={<Contact  />} />
         
     </Routes>
    
