@@ -11,8 +11,11 @@ export default function Contact() {
 
    const onSubmit = (data) => {
     console.log("Form Data:", data);
+    alert("Your Form is submitting")
      reset();
+
   };
+
  
   return (
     <>

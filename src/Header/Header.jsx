@@ -15,7 +15,7 @@ export default function Header({count}) {
         <div className=" w-[80%] flex justify-end gap-5 items-center ">
           <div className="flex items-center"> <Menu/></div>
          <Link to="/Cart"><div><ShoppingCartIcon style={{ color: 'orange' }}/>{count.length}</div></Link> 
-          <div ><Button   style={{ background: 'green' }} variant="contained">Login</Button></div>
+          <Link to  ="/login"><div ><Button   style={{ background: 'green' }} variant="contained">Login</Button></div></Link>
         </div>
       </div>
     </>
