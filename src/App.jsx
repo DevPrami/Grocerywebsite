@@ -10,12 +10,22 @@ import { useState } from 'react';
 import Cart from './Cart/Cart'
 import Contact from './contact/Contact'
 import Login from './login/Login';
+import { useEffect } from 'react';
 
 
 
 function App() {
 
-  const [count , setCount]= useState([])
+const [count , setCount] = useState(() => {
+  const countdata = localStorage.getItem('count');
+  return countdata ? JSON.parse(countdata) : [];  
+});
+
+
+useEffect(() => {
+  localStorage.setItem("count", JSON.stringify(count));  
+}, [count]);
+
 
   return (
     <>

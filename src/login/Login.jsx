@@ -11,7 +11,8 @@ export default function LoginForm() {
 
   const onSubmit = (data) => {
     console.log("Login Data:", data);
-    reset(); // clear form after submit
+    reset(); 
+    
   };
 
   return (
