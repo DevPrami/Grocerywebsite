@@ -11,6 +11,8 @@ import Cart from './Cart/Cart'
 import Contact from './contact/Contact'
 import Login from './login/Login';
 import { useEffect } from 'react';
+import Blog from './blog/Blog';
+
 
 
 
@@ -40,6 +42,7 @@ useEffect(() => {
         <Route path="/Cart" element={<Cart  count={count} setCount={setCount} />} />
          <Route path="/contact" element={<Contact  />} />
          <Route path="/login" element={<Login  />} />
+         <Route path = "/blog" element = {<Blog/>}/>
         
 
         
